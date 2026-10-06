@@ -1,11 +1,55 @@
-**step-1**
-Install Required Libraries By Running following command
-python -m pip install -r requirements.txt
+# Multi-Source Web Scraping & Data Consolidation
 
-**step-2**
-Run main python file
-py main.py
+A Python web scraping pipeline that collects data from:
 
-**final output**
-logs are generated in logs/scrapping.log
-csv and report are in output/
+• Books to Scrape
+• Quotes to Scrape
+
+## Workflow
+
+Books to Scrape ──┐
+                  ├── Scraping
+Quotes to Scrape ─┘
+                      ↓
+                   Cleaning
+                      ↓
+                  Validation
+                      ↓
+                 Deduplication
+                      ↓
+              Final Dataset
+
+## Technologies
+
+Python
+Requests
+BeautifulSoup
+Pandas
+Pytest
+
+## Features
+
+✓ Pagination
+✓ Data cleaning
+✓ Validation
+✓ Duplicate detection
+✓ Error handling
+✓ Retry mechanism
+✓ Logging
+✓ CSV output
+✓ JSON summary report
+✓ Unit tests
+
+## How to Run
+
+1. Clone the repository
+2. Create virtual environment
+3. Install requirements
+4. Run main.py
+5. Run tests
+
+## Output
+
+final_dataset.csv
+summary_report.json
+scraping.log
