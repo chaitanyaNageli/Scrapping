@@ -1,0 +1,8 @@
+2026-10-07 00:14:27,158 - INFO - Started Book scrapping
+2026-10-07 00:14:35,811 - INFO - Ended Book scrapping
+2026-10-07 00:14:35,812 - INFO - Started Book scrap cleaning
+2026-10-07 00:14:35,866 - INFO - Ended Book scrap cleaning
+2026-10-07 00:14:35,866 - INFO - Started Quotes scraping
+2026-10-07 00:14:50,545 - INFO - Ended Quotes scraping
+2026-10-07 00:14:50,632 - INFO - CREATED CSV
+2026-10-07 00:14:50,633 - INFO - CREATED REPORT
